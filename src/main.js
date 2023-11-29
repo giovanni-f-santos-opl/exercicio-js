@@ -17,13 +17,4 @@ async function mainFunc() {
   return users
 }
 
-/**
- * Self-invoking function that runs the main function and logs it's returns in the console
- */
-;(async () => {
-  const usersFinal = await mainFunc()
-  console.log('Lista final dos usuários: ', usersFinal)
-  console.log('Posts do terceiro usuário: ', usersFinal[2].posts)
-})()
-
 module.exports = { mainFunc }

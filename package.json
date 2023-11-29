@@ -1,0 +1,15 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "Esse respositório contém a minha resolução para o exercício proposto como forma de avaliação para candidatura interna a vaga de desenvolvedor.",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
